@@ -1,0 +1,361 @@
+INSERT INTO Genre(Name)
+  VALUES('Pop');
+
+INSERT INTO Genre(Name)
+  VALUES('Hip-hop and Rap');
+
+INSERT INTO Genre(Name)
+  VALUES('Rock');
+
+INSERT INTO Genre(Name)
+  VALUES('Electronic music');
+
+INSERT INTO Genre(Name)
+  VALUES('Classical music');
+
+
+
+INSERT INTO Performer(Name)
+  VALUES('Michael Jackson');
+
+INSERT INTO Performer(Name)
+  VALUES('Madonna');
+
+INSERT INTO Performer(Name)
+  VALUES('The Beatles');
+
+INSERT INTO Performer(Name)
+  VALUES('Eminem');
+
+INSERT INTO Performer(Name)
+  VALUES('Kanye West');
+
+INSERT INTO Performer(Name)
+  VALUES('Red Hot Chili Peppers');
+
+INSERT INTO Performer(Name)
+  VALUES('Nirvana');
+
+INSERT INTO Performer(Name)
+  VALUES('Daft Punk');
+
+INSERT INTO Performer(Name)
+  VALUES('Stefano Guzzetti');
+
+
+
+INSERT INTO Album(Name, Year_of_issue)
+  VALUES('Off the Wall', 1979);
+
+INSERT INTO Album(Name, Year_of_issue)
+  VALUES('Celebration', 2009);
+
+INSERT INTO Album(Name, Year_of_issue)
+  VALUES('Abbey Road', 1969);
+
+INSERT INTO Album(Name, Year_of_issue)
+  VALUES('Recovery', 2010);
+
+INSERT INTO Album(Name, Year_of_issue)
+  VALUES('ye', 2018);
+
+INSERT INTO Album(Name, Year_of_issue)
+  VALUES('The Getaway', 2016);
+
+INSERT INTO Album(Name, Year_of_issue)
+  VALUES('Nirvana', 2002);
+
+INSERT INTO Album(Name, Year_of_issue)
+  VALUES('Random Access Memories', 2013);
+
+INSERT INTO Album(Name, Year_of_issue)
+  VALUES('At Home - Piano Book (Volume One)', 2014);
+
+
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Do not Stop Til You Get Enough', 6.02, 1);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('She is Out of My Life', 3.19, 1);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Rock with You', 3.40, 1);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Hung Up', 5.38, 2); (M)
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Like a Prayer', 5.51, 2);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Material Girl', 3.56, 2);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Here Comes The Sun', 3.07, 3);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Come Together', 4.19, 3);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Not Afraid', 4.08, 4);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Cold Wind Blows', 5.03, 4);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('All Mine', 2.25, 5);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Ghost Town', 4.31, 5);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Dark Necessities', 5.02, 6);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('The Getaway', 4.10, 6);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Smells Like Teen Spirit', 5.01, 7);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Come as You Are', 3.45, 7);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Get Lucky (feat. Pharrell Williams)', 6.09, 8);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Instant Crush (feat. Julian Casablancas)', 5.37, 8);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Give Life Back to Music', 4.35, 8);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('The Road To You', 3.06, 9);
+
+INSERT INTO Track(Name, Duration, Album_ID)
+  VALUES('Haiku', 2.32, 9);
+
+
+
+INSERT INTO Collection(Name, Year_of_issue)
+  VALUES('Pop collection', 2020);
+
+INSERT INTO Collection(Name, Year_of_issue)
+  VALUES('Hip-hop collection', 2019);
+
+INSERT INTO Collection(Name, Year_of_issue)
+  VALUES('Rock collection', 2020);
+
+INSERT INTO Collection(Name, Year_of_issue)
+  VALUES('Electronic collection', 2021);
+
+INSERT INTO Collection(Name, Year_of_issue)
+  VALUES('Classical collection', 2020);
+
+INSERT INTO Collection(Name, Year_of_issue)
+  VALUES('Hip-hop and Pop collection', 2020);
+
+INSERT INTO Collection(Name, Year_of_issue)
+  VALUES('Rock and Electronic collection', 2018);
+
+INSERT INTO Collection(Name, Year_of_issue)
+  VALUES('Random collection', 2021);
+
+
+
+INSERT INTO PerformerGenre(Performer_ID, Genre_ID)
+  VALUES(1, 1);
+
+INSERT INTO PerformerGenre(Performer_ID, Genre_ID)
+  VALUES(2, 1);
+
+INSERT INTO PerformerGenre(Performer_ID, Genre_ID)
+  VALUES(3, 1);
+
+INSERT INTO PerformerGenre(Performer_ID, Genre_ID)
+  VALUES(3, 3);
+
+INSERT INTO PerformerGenre(Performer_ID, Genre_ID)
+  VALUES(4, 2);
+
+INSERT INTO PerformerGenre(Performer_ID, Genre_ID)
+  VALUES(5, 2);
+
+INSERT INTO PerformerGenre(Performer_ID, Genre_ID)
+  VALUES(6, 3);
+
+INSERT INTO PerformerGenre(Performer_ID, Genre_ID)
+  VALUES(7, 3);
+
+INSERT INTO PerformerGenre(Performer_ID, Genre_ID)
+  VALUES(8, 4);
+
+INSERT INTO PerformerGenre(Performer_ID, Genre_ID)
+  VALUES(9, 5);
+
+
+
+INSERT INTO PerformerAlbum(Performer_ID, Album_ID)
+  VALUES(1, 1);
+
+INSERT INTO PerformerAlbum(Performer_ID, Album_ID)
+  VALUES(2, 2);
+
+INSERT INTO PerformerAlbum(Performer_ID, Album_ID)
+  VALUES(3, 3);
+
+INSERT INTO PerformerAlbum(Performer_ID, Album_ID)
+  VALUES(4, 4);
+
+INSERT INTO PerformerAlbum(Performer_ID, Album_ID)
+  VALUES(5, 5);
+
+INSERT INTO PerformerAlbum(Performer_ID, Album_ID)
+  VALUES(6, 6);
+
+INSERT INTO PerformerAlbum(Performer_ID, Album_ID)
+  VALUES(7, 7);
+
+INSERT INTO PerformerAlbum(Performer_ID, Album_ID)
+  VALUES(8, 8);
+
+INSERT INTO PerformerAlbum(Performer_ID, Album_ID)
+  VALUES(9, 9);
+
+
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(1, 1);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(2, 1);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(3, 1);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(4, 1);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(5, 1);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(6, 1);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(7, 1);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(8, 1);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(9, 2);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(10, 2);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(11, 2);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(12, 2);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(13, 3);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(14, 3);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(15, 3);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(16, 3);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(17, 4);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(18, 4);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(19, 4);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(20, 5);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(21, 5);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(1, 6);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(2, 6);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(3, 6);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(4, 6);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(5, 6);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(7, 6);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(8, 6);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(9, 6);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(10, 6);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(11, 6);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(12, 6);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(13, 7);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(14, 7);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(15, 7);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(16, 7);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(17, 7);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(18, 7);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(19, 7);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(2, 8);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(7, 8);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(11, 8);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(15, 8);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(19, 8);
+
+INSERT INTO TrackCollection(Track_ID, Collection_ID)
+  VALUES(21, 8);
